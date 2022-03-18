@@ -77,3 +77,4 @@ sudo systemctl enable umeed
 sudo systemctl restart umeed
 journalctl -u umeed -f -o cat
 ```
+12. If you want to sync your full node quickly you can use state sync guide here: https://github.com/mediumwe11/umee/blob/main/statesync.md
