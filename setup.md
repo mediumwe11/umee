@@ -33,6 +33,7 @@ git checkout tags/v1.0.3
 ```
 6. Build the software and copy ``umeed`` binary file to ``/usr/local/bin``:
 ```
+make build
 sudo cp $HOME/umee/build/umeed /usr/local/bin
 umeed version
 ```
